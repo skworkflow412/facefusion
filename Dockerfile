@@ -19,4 +19,4 @@ COPY . .
 EXPOSE 7860
 
 # Run FaceFusion
-CMD ["python3", "facefusion.py"]
+CMD ["python", "facefusion.py", "headless-run"]
